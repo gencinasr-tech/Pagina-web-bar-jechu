@@ -1,0 +1,86 @@
+:root {
+    --color-verde-chipi: #184A2C;
+    --color-fondo-crema: #F9F7F2; 
+    --color-dorado: #d4cfa3;      
+    --font-titulos: 'Merriweather', serif;
+    --font-texto: 'Open Sans', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background-color: var(--color-fondo-crema); color: var(--color-verde-chipi); font-family: var(--font-texto); line-height: 1.6; }
+
+.container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+.main-header {
+    background-color: var(--color-fondo-crema);
+    border-bottom: 3px double var(--color-verde-chipi);
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-container { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+.brand-area { display: flex; align-items: center; gap: 15px; }
+.logo { width: 80px; height: 80px; border-radius: 50%; object-fit: cover; border: 2px solid var(--color-verde-chipi); }
+
+.brand-text h1 { font-family: var(--font-titulos); font-size: 1.5rem; text-transform: uppercase; letter-spacing: 1px; }
+.tagline { font-size: 0.9rem; font-style: italic; font-weight: 600; }
+
+.daily-nav ul { display: flex; align-items: center; gap: 15px; }
+.daily-nav a:not(.telefono-nav) { font-weight: bold; border: 1px solid var(--color-verde-chipi); padding: 8px 16px; border-radius: 4px; transition: 0.3s; }
+.daily-nav a:not(.telefono-nav):hover { background-color: var(--color-verde-chipi); color: var(--color-fondo-crema); }
+.telefono-nav { color: var(--color-verde-chipi); font-weight: 900; font-size: 1.1rem; }
+
+.carta-section { padding: 40px 0; }
+.carta-header h2 { font-family: var(--font-titulos); font-size: 3rem; font-style: italic; text-align: center; margin-bottom: 40px; text-decoration: underline; }
+
+.menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
+.carnes-group, .tostas-group { display: flex; flex-direction: column; gap: 40px; }
+
+.menu-category h3 { font-family: var(--font-titulos); font-size: 1.8rem; border-bottom: 2px solid var(--color-verde-chipi); margin-bottom: 20px; padding-bottom: 5px; }
+
+.dish-item {
+    margin-bottom: 18px;
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end; 
+    border-bottom: 1px dashed rgba(24, 74, 44, 0.2);
+    padding-bottom: 5px;
+}
+
+.dish-name { font-weight: 700; font-size: 1.1rem; }
+.dish-name::before { content: "• "; }
+.dish-price { font-weight: 700; font-size: 1.1rem; min-width: 70px; text-align: right; }
+
+/* SEPARACIÓN EXTREMA PARA EL PAN */
+.item-pan-separado {
+    margin-top: 80px !important; /* Hueco muy grande en PC */
+    border-top: 2px solid var(--color-verde-chipi) !important; /* Línea más gruesa */
+    padding-top: 20px !important;
+    border-bottom: none !important;
+}
+
+.full-width { grid-column: 1 / -1; text-align: center; border-top: 1px dashed var(--color-verde-chipi); padding-top: 20px; }
+.desserts-list { display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; }
+.desserts-list .dish-item { width: 300px; }
+
+footer { background-color: var(--color-verde-chipi); color: var(--color-fondo-crema); padding: 50px 0 20px; margin-top: 50px; }
+.footer-content { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 40px; }
+.footer-section h4 { font-family: var(--font-titulos); font-size: 1.2rem; margin-bottom: 20px; border-bottom: 1px solid rgba(249, 247, 242, 0.3); display: inline-block; }
+.footer-link { font-weight: 700; }
+
+.copyright { text-align: center; margin-top: 50px; font-size: 0.8rem; opacity: 0.6; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); }
+
+@media (max-width: 700px) {
+    .header-container { justify-content: center; text-align: center; }
+    .logo { width: 60px; height: 60px; }
+    .telefono-nav { display: none; }
+    .menu-grid { grid-template-columns: 1fr; }
+    /* Separación todavía mayor en móvil para que no haya confusión */
+    .item-pan-separado { margin-top: 50px !important; }
+    .footer-content { flex-direction: column; text-align: center; align-items: center; }
+}
