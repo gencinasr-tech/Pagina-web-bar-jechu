@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Contacto | Sidrería El Chipi</title>
+  <meta content="Contacto y reservas: dirección, teléfono y formulario. Te respondemos lo antes posible."
+    name="description" />
+  <link href="./imgs/logo.jpeg" rel="icon" type="image/jpeg" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&amp;family=Open+Sans:wght@400;600;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="./css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <a class="enlace-saltar" href="#main">Saltar al contenido</a>
+  <header class="encabezado-sitio">
+    <div class="contenedor encabezado-interior">
+      <a aria-label="Sidrería El Chipi - Inicio" class="marca" href="index.html">
+        <img alt="Logotipo Sidrería El Chipi" class="logo-marca" src="./imgs/logo.jpeg" />
+        <div class="marca-texto">
+          <span class="marca-titulo">Sidrería El Chipi</span>
+          <span class="marca-lema">Tradición y Sabor</span>
+        </div>
+      </a>
+      <nav aria-label="Navegación principal" class="navegacion">
+        <a class="enlace-navegacion" href="index.html">Inicio</a>
+        <a class="enlace-navegacion" href="productos.html">Productos</a>
+        <a class="enlace-navegacion" href="info.html">Quiénes somos</a>
+        <a class="enlace-navegacion" href="partners.html">Partners</a>
+        <a class="enlace-navegacion activo" href="contacto.html">Contacto</a>
+        <a aria-label="Llamar a Sidrería El Chipi" class="telefono-navegacion" href="tel:+34910345185">📞 910 345
+          185</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="seccion">
+      <div class="contenedor">
+        <h1 class="titulo-seccion">Contacto</h1>
+        <p class="subtitulo-seccion">
+          Para reservar o preguntar cualquier cosa: llámanos o rellena el formulario.
+        </p>
+        <div class="separador"></div>
+        <div class="cuadricula-contacto">
+          <div class="tarjeta">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.8810793099306!2d-3.522312499999999!3d40.344984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd423b8576ee28b7%3A0x196947941f8e6969!2sSidrer%C3%ADa%20el%20chipi!5e0!3m2!1sen!2ses!4v1773322960390!5m2!1sen!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="tarjeta-cuerpo">
+              <h2 class="tarjeta-titulo">Datos</h2>
+              <p class="tarjeta-texto"><strong>📍 Dirección:</strong> Av. Pablo Iglesias, 84, 28521 Rivas-Vaciamadrid,
+                Madrid</p>
+              <p class="tarjeta-texto"><strong>📞 Teléfono:</strong> <a href="tel:+34910345185">910 345 185</a></p>  
+              <p class="tarjeta-texto"><strong>📧 Gmail:</strong><a href="mailto:gencinasr@gmail.com"> gencinasr@gmail.com</a></strong></p>
+              <p class="tarjeta-texto"><strong>🗺️ Mapa:</strong> <a href="https://www.google.com/maps/search/?api=1&amp;query=Sidrer%C3%ADa%20El%20Chipi%2C%20Av.%20Pablo%20Iglesias%2084%2C%2028521%20Rivas-Vaciamadrid" target="_blank">Abrir en Google Maps</a></p>
+            </div>
+          </div>
+          <form class="formulario">
+            <div class="campo">
+              <label for="nombre">Nombre</label>
+              <input id="nombre" name="nombre" placeholder="Tu nombre" required="" type="text" />
+            </div>
+            <div class="campo">
+              <label for="email">Email</label>
+              <input id="email" name="email" placeholder="tu@email.com" required="" type="email" />
+            </div>
+            <div class="campo">
+              <label for="telefono">Teléfono (opcional)</label>
+              <input id="telefono" name="telefono" placeholder="600 000 000" type="tel" />
+            </div>
+            <div class="campo"><label for="consulta">Tipo de consulta</label><select id="consulta" name="consulta"
+                required="">
+                <option disabled="" selected="" value="">Selecciona una opción</option>
+                <option value="reserva">Reserva</option>
+                <option value="informacion">Información general</option>
+                <option value="evento">Eventos o grupos</option>
+                <option value="otra">Otra consulta</option>
+              </select></div>
+            <div class="campo">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Dinos día, hora y cuántos sois (si es reserva)..."
+                required=""></textarea>
+            </div>
+            <div class="campo-aceptacion"><input id="privacidad" name="privacidad" required="" type="checkbox" /><label
+                for="privacidad">Acepto la política de privacidad</label></div>
+            <div class="acciones-formulario"><button class="boton boton-primario" type="submit">Enviar</button><button
+                class="boton boton-secundario" type="reset">Cancelar</button></div>
+          </form>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer class="pie-sitio">
+    <div class="contenedor cuadricula-pie">
+      <section class="bloque-pie">
+        <h3 class="titulo-pie">Dónde estamos</h3>
+        <a class="enlace-pie"
+          href="https://www.google.com/maps/search/?api=1&amp;query=Sidrer%C3%ADa%20El%20Chipi%2C%20Av.%20Pablo%20Iglesias%2084%2C%2028521%20Rivas-Vaciamadrid"
+          target="_blank">
+          Av. Pablo Iglesias, 84<br />28521 Rivas-Vaciamadrid, Madrid
+        </a>
+      </section>
+      <section class="bloque-pie">
+        <h3 class="titulo-pie">Reservas</h3>
+        <p class="texto-pie">Llámanos y te guardamos mesa.</p>
+        <a class="enlace-pie" href="tel:+34910345185">📞 910 345 185</a>
+      </section>
+      <section class="bloque-pie">
+        <h3 class="titulo-pie">Horario</h3>
+        <ul class="lista-pie">
+          <li><strong>L-J</strong>: 07:00 - 18:00</li>
+          <li><strong>V</strong>: 07:00 - 00:00</li>
+          <li><strong>S</strong>: 11:00 - 00:00</li>
+          <li><strong>D</strong>: 11:00 - 18:00</li>
+        </ul>
+      </section>
+    </div>
+    <div class="contenedor pie-inferior">
+      <p>© 2026 Sidrería El Chipi. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

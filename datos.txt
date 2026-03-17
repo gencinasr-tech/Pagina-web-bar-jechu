@@ -1,0 +1,110 @@
+Nombre de la web
+Sidrería El Chipi
+
+Descripción general de la web
+La web representa a una sidrería asturiana ubicada en Rivas-Vaciamadrid. La idea principal es transmitir una imagen cercana, tradicional y clara, para que cualquier persona pueda entender rápidamente qué ofrece el local, dónde está, cómo contactar y qué tipo de comida puede encontrar.
+
+Estructura de la web
+1. index.html (David)
+   Página de inicio. Presenta la idea principal del restaurante, sus rasgos más importantes y accesos rápidos a la carta y al contacto.
+2. productos.html (Guillermo)
+   Página con la carta completa, organizada por categorías para facilitar la lectura.
+3. info.html (David)
+   Página “Quiénes somos”, donde se explica la filosofía del negocio, el tipo de cocina y el ambiente.
+4. partners.html (Guillermo)
+   Página destinada a mostrar colaboradores y proveedores relacionados con carnes, pescado, quesos, sidra, huerta y pan.
+5. contacto.html (David)
+   Página con datos de localización, teléfono y formulario de contacto o reserva.
+
+Información mostrada en la web
+- Nombre visible de la marca: Sidrería El Chipi.
+- Lema visible: Tradición y Sabor.
+- Mensaje principal de inicio: “Auténtico sabor asturiano, sin postureo”.
+- Dirección: Av. Pablo Iglesias, 84, 28521 Rivas-Vaciamadrid, Madrid.
+- Teléfono: 910 345 185.
+- La web resalta tres ideas principales del negocio: sidra natural, parrilla y cocina casera.
+- También transmite que el local trabaja con producto tradicional, guisos, carnes y un ambiente de sidrería clásica.
+
+Información resumida por páginas
+
+Inicio
+En la portada se explica de forma breve qué tipo de restaurante es, se destacan sus puntos fuertes y se muestran accesos rápidos a la carta y al formulario. También aparecen tres bloques visuales con información resumida sobre sidra, parrilla y producto del mar y de la huerta.
+
+Productos
+La carta se organiza de forma clara por categorías:
+- Entrantes
+- Carnes a la parrilla
+- Carnes empanadas
+- Ensaladas
+- Extras
+- Vinos
+- Postres caseros
+
+Información sobre los productos
+Entrantes:
+Paté de cabracho, fabada asturiana, vieiras, gambón al ajillo, croquetas de jamón, patatas mixtas, chorizo a la sidra, huevos rotos con jamón, calamares, chipirones, pulpo a la gallega, tabla de quesos y tortos mixtos.
+
+Carnes a la parrilla:
+Entrecot, chuletón, solomillo de ternera y picaña.
+
+Carnes empanadas:
+Cachopo de ternera, cachopo de cecina, cachopo de la casa y escalopines al Cabrales.
+
+Ensaladas y acompañamientos:
+Mixta, ensalada verde, ensalada de la casa, parrillada de verduras y unidad de pan como extra.
+
+Bebidas y postres:
+La carta incluye vinos y postres caseros, además del protagonismo visual de la sidra como parte de la identidad del negocio.
+
+Información sobre el equipo o personal
+Aunque la web no muestra nombres propios del personal, sí transmite cómo es el equipo y cómo trabaja:
+- Personal orientado a un trato cercano y directo con el cliente.
+- Cocina centrada en recetas caseras, producto tradicional y raciones generosas.
+- Trabajo de sala pensado para reservas, atención rápida y ambiente cómodo.
+- Colaboración con proveedores de carne, pescado, quesos, sidra, huerta y pan.
+La parte de “Quiénes somos” y la de “Partners” ayudan a explicar quién está detrás del servicio y del producto, aunque no se den nombres concretos de trabajadores.
+
+Indicar por qué se han colocado los efectos y estilos en la web
+Esta es la parte más importante del planteamiento visual de la página.
+
+1. Colores principales
+Se ha utilizado un verde oscuro como color principal porque encaja con la identidad de una sidrería tradicional, transmite seriedad, cercanía y recuerda a elementos muy asociados al mundo asturiano y a la propia sidra. También se ha usado un tono crema en el fondo para evitar un contraste agresivo y para dar sensación de carta física, local clásico y ambiente cálido.
+
+2. Tipografía
+Los títulos usan una tipografía con más presencia y aspecto tradicional para reforzar la idea de restaurante clásico y con personalidad. En cambio, los textos normales usan una fuente más limpia y fácil de leer, para que la navegación sea cómoda y la información importante se entienda rápido.
+
+3. Tarjetas y bloques de contenido
+Se han usado tarjetas, cajas y bloques con bordes suaves y sombra ligera para separar bien la información sin recargar la página. Esto ayuda a que cada sección tenga su espacio y a que el usuario distinga rápidamente qué parte es presentación, qué parte son productos y qué parte es contacto.
+
+4. Botones principales y secundarios
+Los botones con fondo verde sirven para señalar la acción más importante de cada parte, por ejemplo ver la carta o enviar el formulario. Los botones con borde y fondo más limpio sirven como opción secundaria. Esta diferencia visual se ha colocado para que la persona que entra en la web sepa rápidamente dónde debe pulsar sin necesidad de pensar demasiado.
+
+5. Distribución del contenido
+Se ha utilizado una maquetación con Grid y Flexbox para organizar la información de forma estable y ordenada. En la portada se separa el mensaje principal y la imagen del local, lo que permite que la primera impresión sea clara. En otras zonas se usan cuadrículas para tarjetas, datos y colaboradores, ya que así la información queda alineada, equilibrada y fácil de comparar.
+
+6. Imagen del local y fotografías de comida
+Las imágenes ayudan a que la web parezca más real y más cercana. No están puestas solo para decorar, sino para reforzar la idea de ambiente, producto y estilo del restaurante. La foto principal del interior del local da contexto y transmite el tipo de sitio que es. Las imágenes de productos ayudan a que la carta no sea solo texto.
+
+7. Bordes redondeados y sombras suaves
+Los bordes redondeados suavizan el diseño y evitan un aspecto demasiado rígido. Las sombras se han mantenido discretas para dar profundidad sin romper la estética limpia. Se ha buscado que la web parezca cuidada, moderna y agradable, pero sin perder el aire tradicional.
+
+8. Efectos de interacción
+Se han añadido pseudoclases como hover y focus para que al pasar el ratón o al interactuar con enlaces, botones y campos del formulario el usuario reciba una respuesta visual. Esto mejora la usabilidad porque deja claro qué elemento está activo o puede pulsarse.
+También se ha incluido el uso de pseudoelementos en la hoja de estilos para cumplir el requisito técnico del ejercicio y reforzar la estructura del diseño desde CSS.
+
+9. Menú común y cabecera fija
+El menú aparece en todas las páginas con la misma estructura para que la navegación sea coherente. Además, la cabecera se mantiene fija en la parte superior para que el usuario pueda cambiar de sección rápidamente sin perderse dentro de la web.
+
+10. Formulario
+El formulario se ha planteado con campos claros, etiquetas visibles y separación suficiente entre elementos para que resulte legible. Se ha incluido nombre, email, tipo de consulta con cuatro opciones, mensaje, aceptación obligatoria de la política de privacidad, botón de enviar y botón de cancelar.
+
+11. Decisión general de estilo
+En conjunto, el estilo no busca una apariencia tecnológica ni minimalista extrema, sino una imagen cálida, reconocible y relacionada con un restaurante tradicional. Por eso se han evitado efectos exagerados y se ha dado prioridad a la legibilidad, a la organización visual y a la sensación de cercanía.
+
+Notas de organización para la entrega
+- Toda la web comparte una única hoja de estilos externa.
+- No se usan estilos en línea.
+- No se usa JavaScript.
+- No se usan frameworks.
+- Las clases del código se han dejado en español para que la estructura del proyecto sea más comprensible.
+- Todo lo visible en la web parte de la información resumida en este archivo.
